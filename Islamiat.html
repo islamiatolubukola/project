@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style2.css"> 
+        <title>Personal Website</title>
+    </head>
+    <body>
+        <button class="button button1"><a href="#home">Home</a></button>
+        <button class="button button2"><a href="#about me">About Me</a></button>
+        <button class="button button3"><a href="#picture gallery">Go to pictures</a></button>
+        <button class="button button4"><a href="#contact me">Contact Me</a></button>
+        <h1>Home</h1>
+        <div class="container">
+            <h3>About Me</h3>
+            <p>I'm Islamiat oluwabukola Olateju.</p><br>
+            <p>I'm from Abeokuta Ogun State Nigeria</p><br>
+            <p>my knowledge is centered on front end and back end in web development</p><br>
+            <p>I live in Bode Olude</p>
+        </div>
+        <h2 id="picture gallery">Picture Gallery</h2>
+        <div class="Gallery">
+            <a target="_blank" href="portfolio2.JPG">
+                <img src="portfolio2.JPG" alt="" width="600" height="400">
+            </a>
+            <div class="desc">Body</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="portfolio3.JPG">
+                <img src="portfolio3.JPG" alt="" width="600" height="400">
+            </a>
+            <div class="desc">Face</div>
+        </div>
+        <div class="Gallery">
+            <a target="_blank" href="portfolio4.JPG">
+                <img src="portfolio4.JPG" alt="" width="600" height="400">
+            </a>
+            <div class="desc">Favourite</div>
+        </div>
+        <div class="Gallery">
+            <a target="_blank" href="portfolio5.JPG">
+                <img src="portfolio5.JPG" alt="" width="600" height="400">
+            </a>
+            <div class="desc">Owner</div>
+        </div>
+        <div class="C M">
+            <div style="text-align: center">
+                <h2>Contact Me</h2>
+                <p>you can leave a message for me:</p>
+                <form action="/action_page.php">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                        <option value="australia">Australia</option>
+                        <option value="USA">USA</option>
+                        <option value="Nigeria">Nigeria</option>
+                    </select>
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height: 170px"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+        </div>
+        </div>
+        </div>
+    </body>
+</html>
